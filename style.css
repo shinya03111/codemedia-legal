@@ -1,0 +1,76 @@
+:root {
+  --bg: #ffffff;
+  --surface: #f6f8fa;
+  --border: #e2e8f0;
+  --text: #1a2230;
+  --muted: #5c6b80;
+  --accent: #0f766e;
+  --accent-soft: #e6f5f3;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f172a;
+    --surface: #18243c;
+    --border: #2a3a55;
+    --text: #e8edf5;
+    --muted: #9fb0c6;
+    --accent: #2dd4bf;
+    --accent-soft: #14313a;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+    "Noto Sans JP", "Yu Gothic", sans-serif;
+  line-height: 1.85;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+.wrap { max-width: 720px; margin: 0 auto; padding: 40px 20px 80px; }
+header { border-bottom: 1px solid var(--border); padding-bottom: 20px; }
+.eyebrow {
+  font-size: 13px; letter-spacing: .08em;
+  color: var(--accent); font-weight: 700; margin: 0 0 6px;
+}
+h1 { font-size: 26px; line-height: 1.45; margin: 0 0 10px; }
+h2 { font-size: 18px; margin: 40px 0 10px; }
+h3 { font-size: 16px; margin: 24px 0 6px; }
+.lede { color: var(--muted); }
+.meta { color: var(--muted); font-size: 14px; margin: 0; }
+ul { padding-left: 1.25em; }
+li { margin: 6px 0; }
+a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+.highlight {
+  background: var(--accent-soft); border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 8px; padding: 14px 18px; margin: 24px 0;
+  font-weight: 600;
+}
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 15px; }
+th, td {
+  text-align: left; padding: 10px 12px;
+  border-bottom: 1px solid var(--border); vertical-align: top;
+}
+th { color: var(--muted); font-weight: 700; white-space: nowrap; }
+.table-scroll { overflow-x: auto; }
+.en {
+  margin-top: 48px; padding-top: 28px; border-top: 1px solid var(--border);
+  color: var(--muted); font-size: 15px;
+}
+.en h2 { color: var(--text); }
+footer {
+  margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--border);
+  color: var(--muted); font-size: 14px;
+}
+.applist { list-style: none; padding: 0; }
+.applist a {
+  display: block; padding: 16px 18px; border: 1px solid var(--border);
+  border-radius: 12px; text-decoration: none; margin-bottom: 12px;
+  background: var(--surface);
+}
+.applist a:hover { border-color: var(--accent); }
+.applist strong { display: block; color: var(--text); font-size: 17px; }
+.applist span { color: var(--muted); font-size: 14px; }
