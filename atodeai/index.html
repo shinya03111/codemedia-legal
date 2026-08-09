@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー | あとでAI – CodeMedia</title>
+<meta name="description" content="「あとでAI」のプライバシーポリシー。既定では端末内にのみ保存し、同期を使う場合のみメールアドレスとメモをサーバーに保存します。">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">CodeMedia</p>
+  <h1>あとでAI プライバシーポリシー</h1>
+  <p class="meta">制定日: 2026年8月10日</p>
+</header>
+
+<div class="highlight">
+  既定では、書いた内容はお使いの端末内にのみ保存されます。<strong>同期を使う場合に限り</strong>、メールアドレスとメモがサーバーに保存されます。広告・アクセス解析・トラッキングは一切ありません。
+</div>
+
+<p class="lede">
+  本ポリシーは、CodeMedia(以下「当方」)が提供するアプリおよびウェブアプリ「あとでAI」(以下「本アプリ」)における、利用者の情報の取り扱いについて定めるものです。
+</p>
+
+<h2>1. 本アプリは AI を搭載していません</h2>
+<p>
+  本アプリは、生成 AI の API を<strong>一切呼び出しません</strong>。API キーを保持しておらず、AI からの応答が本アプリに入ってくることもありません。「コピーして◯◯を開く」操作が行うのは次の2つだけです。
+</p>
+<ul>
+  <li>利用者が書いた本文を、端末のクリップボードにコピーする</li>
+  <li>ChatGPT / Claude / Gemini などの公式アプリまたは公式サイトを開く</li>
+</ul>
+<p>
+  貼り付けと送信は、開いた先で利用者自身が行います。したがって、本アプリが利用者の本文を AI 事業者へ送信することはありません。利用者が貼り付けて送信した後の取り扱いには、各 AI 事業者の利用規約およびプライバシーポリシーが適用されます。
+</p>
+
+<h2>2. 収集する情報</h2>
+<p>ログインしない場合、当方は情報を<strong>一切収集しません</strong>。</p>
+<ul>
+  <li>アクセス解析・トラッキング(計測 SDK 等)は行いません</li>
+  <li>広告は表示しません(広告 SDK も組み込んでいません)</li>
+  <li>端末識別子や広告 ID(IDFA)の取得も行いません</li>
+  <li>カメラ・マイク・位置情報・連絡先へのアクセスは行いません</li>
+</ul>
+<p>
+  端末をまたいで使うための<strong>同期機能を利用する場合に限り</strong>、以下を取得・保存します。
+</p>
+<div class="table-scroll">
+<table>
+  <tr><th>項目</th><th>目的</th><th>備考</th></tr>
+  <tr>
+    <td>メールアドレス</td>
+    <td>ログイン(本人確認)のみ</td>
+    <td>パスワードは扱いません。メールで届くリンクから認証します。広告・宣伝の送信には使用しません</td>
+  </tr>
+  <tr>
+    <td>本アプリで作成した内容<br>(タスクの本文・プロジェクト・共通の前提・解禁時刻)</td>
+    <td>端末間での同期</td>
+    <td>利用者本人のアカウントに紐づけて保存されます</td>
+  </tr>
+</table>
+</div>
+<p>
+  同期はあくまで任意の機能です。ログインしなくても、本アプリのすべての機能を利用できます。
+</p>
+
+<h2>3. データの保存場所</h2>
+<p>
+  ログインしていない場合、データは<strong>端末内にのみ</strong>保存されます(アプリでは端末内ストレージ、ウェブ版ではブラウザ内ストレージ)。当方を含む外部のサーバーへ送信されることはありません。
+</p>
+<p>
+  同期を有効にした場合、データは当方が管理する Supabase(データベース基盤。<strong>日本・東京リージョン</strong>)に保存されます。保存された行は<strong>行レベルセキュリティにより本人のみが読み書きできる</strong>よう設定しています。ウェブ版の配信には Vercel を利用しています。これらは当方の委託先(処理者)として、本アプリの提供のためにのみデータを取り扱います。
+</p>
+<p>
+  なお、OS の端末バックアップ機能により、端末内のアプリデータがバックアップの対象になる場合があります。これは OS の機能であり、当方がそのデータにアクセスすることはありません。
+</p>
+
+<h2>4. 通知について</h2>
+<p>
+  iOS / Android アプリの通知は、利用者が設定した解禁時刻に鳴らす<strong>ローカル通知のみ</strong>です。端末内で完結し、プッシュ通知サーバーは使用しません。
+</p>
+<p>
+  ウェブ版でブラウザの通知を有効にした場合に限り、通知の宛先(購読情報)を当方のサーバーに保存し、ブラウザ提供元の配信サービスを経由して通知を送ります。この通知に含まれるのは「どのサービスが解禁されたか」と「溜まっている件数」だけで、メモの本文は含まれません。
+</p>
+<p>
+  通知の利用には利用者の許可が必要で、OS やブラウザの設定からいつでも無効にできます。
+</p>
+
+<h2>5. クリップボード</h2>
+<p>
+  「コピー」操作を行った場合、本文テキストは端末のクリップボードに書き込まれます。<strong>本アプリがクリップボードの内容を読み取ることはありません。</strong>
+</p>
+
+<h2>6. データの削除</h2>
+<ul>
+  <li>アプリ内の「設定」から<strong>アカウントを削除</strong>できます。削除すると、サーバー上のアカウントと同期データはすべて消去され、元に戻せません</li>
+  <li>本アプリをアンインストールすると、端末内のデータが削除されます(同期を利用していた場合、サーバー側のデータはアカウント削除を行うまで残ります)</li>
+  <li>ログインしていない場合、当方はデータを保持していないため、当方側での削除手続きは存在しません</li>
+</ul>
+
+<h2>7. 第三者への提供</h2>
+<p>
+  当方は、利用者の情報を第三者に提供、譲渡、販売することはありません。利用者のデータを機械学習の学習用データとして利用することもありません。法令に基づく開示請求があった場合を除きます。
+</p>
+
+<h2>8. ポリシーの変更</h2>
+<p>
+  本ポリシーの内容を変更する場合は、本ページで告知します。重要な変更がある場合は、アプリのアップデート情報等でもお知らせします。
+</p>
+
+<h2>9. お問い合わせ</h2>
+<div class="table-scroll">
+<table>
+  <tr><th>提供者</th><td>CodeMedia(個人事業)</td></tr>
+  <tr><th>連絡先</th><td><a href="mailto:codemedia.app@gmail.com">codemedia.app@gmail.com</a></td></tr>
+  <tr><th>対象</th><td>あとでAI(iOS / Android / ウェブ版)</td></tr>
+  <tr><th>ウェブ版</th><td><a href="https://atodeai.vercel.app">atodeai.vercel.app</a></td></tr>
+</table>
+</div>
+
+<div class="en">
+  <h2>English summary</h2>
+  <p>
+    <strong>あとでAI (AtodeAI)</strong> is a queue for the requests you intend to make to an AI later.
+    <strong>The app contains no AI and never calls an AI API.</strong> Its "copy and open" button only
+    copies your own text to the clipboard and opens the official ChatGPT / Claude / Gemini app or
+    website; you paste and send it yourself.
+  </p>
+  <p>
+    By default nothing leaves your device. Only if you turn on the optional sync do we store your
+    email address (used solely to sign you in) and your notes on Supabase in the Tokyo region,
+    protected by row-level security so that only your account can read them. There are no ads, no
+    analytics SDK and no tracking, and we never read your clipboard.
+  </p>
+  <p>
+    Mobile notifications are local only. You can delete your account, and with it all synced data,
+    from within the app's Settings screen.
+  </p>
+  <p>
+    Questions: <a href="mailto:codemedia.app@gmail.com">codemedia.app@gmail.com</a> (CodeMedia).
+    Effective 10 August 2026.
+  </p>
+</div>
+
+<footer>
+  <p><a href="../">← CodeMedia の法的情報一覧</a></p>
+</footer>
+
+</div>
+</body>
+</html>
