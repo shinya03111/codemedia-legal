@@ -15,6 +15,7 @@ CodeMedia の**全アプリのプライバシーポリシーの正本**を GitHu
 | ポスネタ | https://shinya03111.github.io/codemedia-legal/posneta/ |
 | よみかえし | https://shinya03111.github.io/codemedia-legal/yomikaeshi/ |
 | キフログ | https://shinya03111.github.io/codemedia-legal/kifulog/ |
+| おかん天気 | https://shinya03111.github.io/codemedia-legal/okantenki/ |
 
 App Store Connect / Google Play Console のプライバシーポリシー URL には、
 上記のアプリ別 URL を登録する。サポート URL / マーケティング URL は別物なので、
