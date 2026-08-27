@@ -17,6 +17,14 @@ CodeMedia の**全アプリのプライバシーポリシーの正本**を GitHu
 | キフログ | https://shinya03111.github.io/codemedia-legal/kifulog/ |
 | おかん天気 | https://shinya03111.github.io/codemedia-legal/okantenki/ |
 | ミタテ | https://shinya03111.github.io/codemedia-legal/mitate/ |
+| ふたまど | https://shinya03111.github.io/codemedia-legal/futamado/ |
+| ふたまど（利用規約） | https://shinya03111.github.io/codemedia-legal/futamado/terms.html |
+
+**利用規約（EULA）を置いているのは今のところ「ふたまど」だけ**。
+1対1でユーザー生成コンテンツをやりとりするアプリなので、App Store のガイドライン 1.2 が
+求める「不快なコンテンツへのゼロ・トレランス」と「通報から24時間以内の対応」を
+規約本文に明記する必要がある。App Store Connect の「使用許諾契約（EULA）」欄には
+この URL を登録する。
 
 App Store Connect / Google Play Console のプライバシーポリシー URL には、
 上記のアプリ別 URL を登録する。サポート URL / マーケティング URL は別物なので、
