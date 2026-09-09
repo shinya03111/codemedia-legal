@@ -19,6 +19,10 @@ CodeMedia の**全アプリのプライバシーポリシーの正本**を GitHu
 | ミタテ | https://shinya03111.github.io/codemedia-legal/mitate/ |
 | ふたまど | https://shinya03111.github.io/codemedia-legal/futamado/ |
 | ふたまど（利用規約） | https://shinya03111.github.io/codemedia-legal/futamado/terms.html |
+| うちの防災カルテ | https://shinya03111.github.io/codemedia-legal/bousaikarte/ |
+| のりしろ | https://shinya03111.github.io/codemedia-legal/norishiro/ |
+| いろもど | https://shinya03111.github.io/codemedia-legal/iromodo/ |
+| いろもど（サポート） | https://shinya03111.github.io/codemedia-legal/iromodo/support.html |
 
 **利用規約（EULA）を置いているのは今のところ「ふたまど」だけ**。
 1対1でユーザー生成コンテンツをやりとりするアプリなので、App Store のガイドライン 1.2 が
