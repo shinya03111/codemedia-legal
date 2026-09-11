@@ -23,6 +23,8 @@ CodeMedia の**全アプリのプライバシーポリシーの正本**を GitHu
 | のりしろ | https://shinya03111.github.io/codemedia-legal/norishiro/ |
 | いろもど | https://shinya03111.github.io/codemedia-legal/iromodo/ |
 | いろもど（サポート） | https://shinya03111.github.io/codemedia-legal/iromodo/support.html |
+| たいりょくノート | https://shinya03111.github.io/codemedia-legal/tairyoku/ |
+| たいりょくノート（サポート） | https://shinya03111.github.io/codemedia-legal/tairyoku/support.html |
 
 **利用規約（EULA）を置いているのは今のところ「ふたまど」だけ**。
 1対1でユーザー生成コンテンツをやりとりするアプリなので、App Store のガイドライン 1.2 が
