@@ -28,6 +28,8 @@ CodeMedia の**全アプリのプライバシーポリシーの正本**を GitHu
 | すきどころ | https://shinya03111.github.io/codemedia-legal/sukidokoro/ |
 | すきどころ（サポート） | https://shinya03111.github.io/codemedia-legal/sukidokoro/support.html |
 | みっかもどし | https://shinya03111.github.io/codemedia-legal/mikkamodoshi/ |
+| はらいどき | https://shinya03111.github.io/codemedia-legal/haraidoki/ |
+| はらいどき（サポート） | https://shinya03111.github.io/codemedia-legal/haraidoki/support.html |
 | みっかもどし（サポート） | https://shinya03111.github.io/codemedia-legal/mikkamodoshi/support.html |
 
 **利用規約（EULA）を置いているのは今のところ「ふたまど」だけ**。
